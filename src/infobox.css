@@ -1,0 +1,21 @@
+.infoBox {
+  flex: 1;
+  border-radius: 25px;
+  border: 1px solid #afa9a9;
+  /* padding: 20px; 
+  width: 200px;
+  height: 150px;   */
+}
+.infoBox:not(:last-child) {
+  margin-right: 15px;
+}
+.infoBox__title,
+.infoBox__cases,
+.infoBox__total {
+  text-align: center;
+}
+.app__right{
+  border-radius: 100px;
+  border: 1px solid #afa9a9; 
+}
+
